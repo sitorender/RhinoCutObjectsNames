@@ -7,7 +7,6 @@ import rhinoscriptsyntax as rs
 objList = rs.GetObjects("Select objects to name")  
 for singleID in objList:   
    name = rs.ObjectName(singleID)   
-   print "name for object is ", name   
    first_chars = name[0:24]   
    rs.ObjectName(singleID, first_chars)   
 
@@ -28,8 +27,7 @@ import rhinoscriptsyntax as rs
 objList = rs.GetObjects("Select objects to name")  
 for singleID in objList:   
    name = rs.ObjectName(singleID)   
-   print "name for object is ", name   
-   first_chars = name[0:2] 
+   first_chars = name[0:24] 
    rs.ObjectName(singleID, first_chars)   
 )  
 
