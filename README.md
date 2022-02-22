@@ -13,7 +13,7 @@ for singleID in objList:
 
 
 Run the script (tools>pythonscript>edit)  
-copy/paste/selectthecode/play 
+copy/paste/selectthecode/play    
 select the object to rename   
 enter
 
@@ -36,7 +36,7 @@ for singleID in objList:
 edit the button icon image (in the up right corner)   
 
 
-You can change the lenght to cut editing this line "first_chars = name[0:24]" e. "first_chars = name[0:12]" 
+You can change the lenght to cut editing this line "first_chars = name[0:24]" e. "first_chars = name[0:12]"    
 or create different buttons with different lenght on left and right click
 
 
