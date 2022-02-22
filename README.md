@@ -3,14 +3,13 @@ Rhinoceros cut objects names
 
 script:
 
-import rhinoscriptsyntax as rs
-objList = rs.GetObjects("Select objects to name")
+import rhinoscriptsyntax as rs   
+objList = rs.GetObjects("Select objects to name")  
 for singleID in objList:
    name = rs.ObjectName(singleID)
    print "name for object is ", name
    first_chars = name[0:24]
    rs.ObjectName(singleID, first_chars)
-
 
 
 Run the script (tools>pythonscript>edit)
