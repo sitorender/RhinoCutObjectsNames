@@ -12,6 +12,7 @@ for singleID in objList:
    rs.ObjectName(singleID, first_chars)
 
 
+
 Run the script (tools>pythonscript>edit)
 copy/paste/selectthecode/play
 select the object to rename
